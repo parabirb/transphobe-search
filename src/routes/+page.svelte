@@ -168,6 +168,7 @@
             <p>
                 before you can do a search, you'll need to download the
                 databases. first, go to <a
+                    target="_blank"
                     href="https://cors-anywhere.herokuapp.com/"
                     class="text-blue-600 underline decoration-wavy underline-offset-2"
                     >this link</a
