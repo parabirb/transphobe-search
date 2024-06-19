@@ -9,7 +9,7 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		paths: {
-			assets: "https://parabirb.github.io/transphobe-search"
+			assets: "https://raw.githubusercontent.com/parabirb/transphobe-search/gh-pages"
 		}
 	},
 	preprocess: vitePreprocess()
