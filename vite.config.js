@@ -3,5 +3,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	optimizeDeps: { exclude: ['layercake'] },
-	plugins: [sveltekit()]
+	plugins: [sveltekit()],
+	base: "https://parabirb.github.io/transphobe-search/"
 });
