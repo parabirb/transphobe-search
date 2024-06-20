@@ -2,7 +2,7 @@
 trans techbros have created plenty of lists of transphobes, but don't let you readily search them.
 
 so, in the interest of transparency, i've created this tool to allow you to search their databases
-**without** intalling their extensions.
+**without** installing their extensions.
 
 this website lets you readily search the lists of two popular extensions:
 1. soupcan (by bethylamine)
