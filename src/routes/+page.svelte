@@ -141,7 +141,7 @@
         input.value = "";
         // search soupcan
         let entry = soupcanList.entries[sha256(`${user}:${soupcanList.salt}`)];
-        markedSoupcan = !!entry && entry?.label === "transphobic";
+        markedSoupcan = !!entry && entry?.label === "transphobe";
         if (markedSoupcan) {
             timeSoupcan = entry.time;
             reasonSoupcan = entry.reason;
