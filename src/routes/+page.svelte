@@ -79,7 +79,7 @@
         // download shinigami eyes first
         progress = "downloading shinigami eyes...";
         const shinigamiBlob = await fetch(
-            "https://cors-anywhere.herokuapp.com/https://clients2.google.com/service/update2/crx?response=redirect&prodversion=46&acceptformat=crx2,crx3&x=id%3Dijcpiojgefnkmcadacmacogglhjdjphj%26uc"
+            "https://cors-anywhere.herokuapp.com/https://clients2.google.com/service/update2/crx?response=redirect&os=linux&arch=x86-64&os_arch=x86-64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=unknown&prodversion=132.0.6834.94&acceptformat=crx2,crx3&x=id%3Dijcpiojgefnkmcadacmacogglhjdjphj%26uc"
         ).then((res) => res.blob());
         progress = "unzipping shinigami eyes...";
         const shinigami = unzipSync(
